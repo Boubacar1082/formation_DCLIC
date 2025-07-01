@@ -1,0 +1,259 @@
+.containeur{
+  display: flex;
+}
+.left-column{
+  margin-right: 5px;
+
+}.rigth-column{
+  margin-left: 5px;
+}
+
+.profile-card {
+      max-width: 315px;
+      background-color: #fff;
+      margin-left: 0px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    }
+
+    .profile-card img {
+      border: 2px solid #009688;
+      border-radius: 10%;
+      width: 250px;
+      height: 300px;
+      margin-top: 5px;
+      margin-left: 10px;
+    }
+
+    .profile-info {
+      padding: 20px;
+    }
+
+    .profile-info h2 {
+      margin-top: 0;
+      font-size: 24px;
+    }
+
+    .info-item {
+      margin: 10px 0;
+      display: flex;
+      align-items: center;
+      color: #333;
+    }
+
+    .info-item i {
+      color: #009688;
+      margin-right: 12px;
+      width: 20px;
+      text-align: center;
+    }
+
+    .skills {
+      padding: 0 20px 20px 20px;
+    }
+
+    .skills h3 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .skill-name {
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    .progress-bar {
+      background-color: #ddd;
+      border-radius: 20px;
+      height: 20px;
+      position: relative;
+    }
+
+    .progress-fill {
+      background-color: #009688;
+      height: 100%;
+      border-radius: 20px;
+      text-align: center;
+      color: white;
+      line-height: 20px;
+      font-size: 13px;
+      width: 90%; /* Valeur de la compétence */
+    }
+    .progress-fill2 {
+      background-color: #009688;
+      height: 100%;
+      border-radius: 20px;
+      text-align: center;
+      color: white;
+      line-height: 20px;
+      font-size: 13px;
+      width: 80%; /* Valeur de la compétence */
+    }
+    .Langues{
+        padding: 0 20px 20px 20px;
+    }
+    .Langues h3{
+        color: #333;
+        margin-bottom: 10px;
+    }
+    .Langues-name{
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    .progress-fillP {
+      background-color: #009688;
+      height: 100%;
+      border-radius: 20px;
+      text-align: center;
+      color: white;
+      line-height: 20px;
+      font-size: 13px;
+      width: 97%; /* Valeur de la compétence */
+    }
+    .progress-fillS {
+      background-color: #009688;
+      height: 100%;
+      border-radius: 20px;
+      text-align: center;
+      color: white;
+      line-height: 20px;
+      font-size: 13px;
+      width: 93%; /* Valeur de la compétence */
+    }
+    .progress-fillF {
+      background-color: #009688;
+      height: 100%;
+      border-radius: 20px;
+      text-align: center;
+      color: white;
+      line-height: 20px;
+      font-size: 13px;
+      width: 95%; /* Valeur de la compétence */
+    }
+    .progress-fillA {
+      background-color: #009688;
+      height: 100%;
+      border-radius: 20px;
+      text-align: center;
+      color: white;
+      line-height: 20px;
+      font-size: 13px;
+      width: 40%; /* Valeur de la compétence */
+    }
+
+
+body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 10px;
+    }
+
+    .experience-section {
+      background-color: #fff;
+      padding: 5px 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      max-width: 900px;
+      margin : auto;
+      margin-right: 0px;
+    }
+    .experience-section2 {
+      background-color: #fff;
+      padding: 5px 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      max-width: 900px;
+      margin : auto;
+      margin-top: 10px;
+      margin-right: 0px;
+    }
+
+    .experience-section h2 {
+      color: #009688;
+      display: flex;
+      align-items: center;
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
+    .experience-section2 h2 {
+      color: #009688;
+      display: flex;
+      align-items: center;
+      font-size: 24px;
+      margin-bottom: 30px;
+      margin-right: 5px;
+    }
+
+    .experience-section h2 i {
+      margin-right: 10px;
+    }
+    .experience-section2 h2 i {
+      margin-right: 10px;
+    }
+
+    .job {
+      margin-bottom: 30px;
+    }
+
+    .job h3 {
+      margin: 0;
+      font-size: 18px;
+      color: #333;
+    }
+
+    .job-date {
+      margin: 5px 0;
+      color: #009688;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .job-date .badge {
+      background-color: #009688;
+      color: white;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 13px;
+    }
+
+    .job p {
+      text-align: justify;
+      margin-top: 8px;
+      color: #555;
+      line-height: 1.5;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #ccc;
+    }
+footer{
+    font-family: Arial, sans-serif;
+    background-color: #009688;
+      padding: 5px 5px;
+      margin-top: 10px;
+    
+}
+footer h3{
+    text-align: center;
+    color: #fff;
+}
+.social-icons {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 10px;
+    }
+
+    .social-icons a {
+      color: white;
+      font-size: 24px;
+      text-decoration: none;
+      transition: transform 0.2s ease, color 0.2s ease;
+    }
+
+    .social-icons a:hover {
+      transform: scale(1.2);
+      color: #1da1f2;
+    }
+    
