@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TexteTyping & Générateur de Mot de passe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <h1>Text Typing & Générateur de Mot de Passe</h1>
+
+  <!-- Text Typing automatique -->
+  <section>
+    <h2>Text Typing automatique</h2>
+    <div id="typingAuto"></div>
+  </section>
+
+  <!-- Text Typing avec texte saisi par l'utilisateur -->
+  <section>
+    <h2>Text Typing (après saisie)</h2>
+    <input type="text" id="inputUser" placeholder="Écris un message...">
+    <button onclick="startUserTyping()">Afficher</button>
+    <div id="typingUser"></div>
+  </section>
+
+  <!-- Text Typing en direct (en tapant) -->
+  <section>
+    <h2>Text Typing en direct</h2>
+    <input type="text" id="inputLive" placeholder="Tape ici...">
+    <div id="typingLive"></div>
+  </section>
+
+  <!-- Générateur de mot de passe -->
+  <section>
+    <h2>Générateur de mot de passe</h2>
+    <label for="length">Longueur :</label>
+    <input type="number" id="length" value="12" min="4" max="50">
+    <div class="button-group">
+      <button onclick="genererMotDePasse()">Générer</button>
+      <button onclick="copierMotDePasse()">Copier</button>
+    </div>
+    <div id="passwordResult"></div>
+  </section>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
