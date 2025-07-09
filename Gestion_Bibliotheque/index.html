@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gestion d'une Bibliothèque</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <div  class="titre">
+            <h2>SYSTEME DE GESTION D'UNE BIBLIOTHEQUE</h2>
+            <p>Bienvenue dans la Collection des livres de BoubaTech</p>
+            <div class="form">
+                <h3>Ajout d'un Livre</h3>
+                <div>
+                    <label for="titre">Titre: </label>
+                    <input type="text" id="titre" name="titre">
+                    <label for="auteur">Auteur: </label>
+                    <input type="text" id="auteur" name="auteur">
+                    <label for="annee">Année: </label>
+                    <input type="number" name="annee" id="annee">
+                    <label for="disponibilite">Disponible:</label>
+                    <input type="checkbox" id="disponibilite" name="disponibilite">
+                </div>
+                <button type="button" onclick="ajouterLivre()">Ajouter</button>
+                <h3>disponibiliter des livres</h3>
+                <div class="rechercher">
+                    <label for="rechercher">Nom du Livre: </label>
+                    <input type="text" name="rechercher" id="rechercher">
+                    <button type="button" onclick="rechercherLivre()">rechercher</button>
+                    <p id="resultat-verification"></p>
+                </div>    
+            </div>
+
+    </div> 
+    
+    <script src="script.js"></script>
+    </body>
+
+</html>
