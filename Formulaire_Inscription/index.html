@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire_Inscription</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="containeur">
+        <h2>Inscription</h2>
+        <label for="nomPrenom">Nom & Prenom</label>
+        <input type="text" id="nomPrenom" placeholder="Veillez saisir votre Nom et Prenom">
+        <small id="messageNom" style="color: red; display: none;"></small>
+        <label for="motdePasse">Mot de Passe</label>
+        <input type="password" id="motdePasse" placeholder="Saisir le Mot de Passe">
+        <small id="messagePassword" style="color: red; display: none; font-size: 1 rem;"></small>
+        <a href="#">Mot de passe oublié ?</a>
+        <button type="button" id="btnConnecter" disabled>Se Connecter</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
