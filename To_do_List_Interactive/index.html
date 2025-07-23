@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ma To-Do List Interactive</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Ma To-Do List Interactive</h1>
+      <p class="subtitle">Organise ta journée avec style et efficacité.</p>
+    </header>
+    <!-- Tableau de Bord -->
+    <div class="dashboard">
+      <div class="dashboard-card total">
+        <h3>📋 Total</h3>
+        <p id="totalCount">0</p>
+      </div>
+      <div class="dashboard-card ongoing">
+        <h3>⏳ En cours</h3>
+        <p id="inProgressCount">0</p>
+      </div>
+      <div class="dashboard-card done">
+        <h3>✅ Terminées</h3>
+        <p id="doneCount">0</p>
+      </div>
+    </div>
+    <div class="containeur">
+      <div class="container">
+        <section class="task-input">
+          <input
+            type="text"
+            id="taskInput"
+            placeholder="Ajouter une nouvelle tâche..."
+          />
+          <select id="prioritySelect">
+            <option value="normal" selected>Priorité normale</option>
+            <option value="high">Haute priorité</option>
+            <option value="low">Priorité faible</option>
+          </select>
+          <button id="addBtn">+ Ajouter</button>
+        </section>
+        <!-- Section tâches actives -->
+        <section class="task-section">
+          <ul id="taskList"></ul>
+        </section>
+      </div>
+      <!-- Nouvelle section tâches terminées -->
+      <section class="completed-section">
+        <header class="completed-header">
+          <h2>Tâches terminées</h2>
+          <button
+            id="clearCompletedBtn"
+            title="Supprimer toutes les tâches terminées"
+          >
+            🗑️ Supprimer tout
+          </button>
+          <input
+            type="text"
+            id="searchCompletedInput"
+            placeholder="Rechercher dans les tâches terminées..."
+            aria-label="Rechercher tâches terminées"
+          />
+        </header>
+        <ul id="completedTaskList"></ul>
+      </section>
+    </div>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
