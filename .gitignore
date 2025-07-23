@@ -1,0 +1,20 @@
+# Ignorer les vidéos et fichiers lourds
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Dossiers Node.js
+node_modules/
+dist/
+build/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers logs
+*.log
+
+# Éviter de versionner des données sensibles ou locales
+.env
